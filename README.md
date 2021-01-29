@@ -17,3 +17,7 @@
 8.- Con ayuda de la transformada de Hough podemos identificar en que punto de la imagen hay líneas, puntos o figuras y así poder discriminar los resultados que nosostros querramos y quedarnos sólo con las líneas viales
 
 9.- Una vez obtenidas la líneas, se combinan con la imagen original para comprobar que estas estén dibujadas correctamente
+
+10.- Optimización de identificación de líneas viales creando los polinomios correspondientes a esas lineas
+
+11.- una vez que detectamos y optimizamos la detección de lineas viales en una imagen procedemos a realizar la deyección en tiempo real sobre un video. Pra esto se rompre el video en cuadros y se analiza cuadro por cuadro para identificar las lineas haciendo usos de todos los pasos anteriores. Para visualizarlo se asigna una unidad de refresco de 1ms
